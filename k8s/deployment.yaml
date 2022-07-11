@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: nudjkk
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: nudjkk
   template:
     metadata:
       labels:
-        app: ray
+        app: nudjkk
     spec:
       containers:
-      - image: okteto.dev/ray:latest
-        name: ray
+      - image: okteto.dev/nudjkk:latest
+        name: nudjkk
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "86646e57-984f-46f9-a85b-205196321b35"
         - name: Vless_Path
-          value: "/vl555"
+          value: "/vl1314rrfd"
         - name: Vmess_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "86646e57-984f-46f9-a85b-205196321b35"
         - name: Vmess_Path
-          value: "/vm666"
+          value: "/vm2425eeds"
         - name: Share_Path
           value: "/v2link"
